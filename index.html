@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>date</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <label for="input-string">string: </label>
+            <input type="text" id="input-string", name="input">
+            <label for="input-substring">searching substring: </label>
+            <input type="text" id="input-substring", name="input">
+        </div>
+        <div>
+            <p>substring position: </p>
+            <p id="output"></p>
+        </div>
+        <input type="button" value="find substring position" id="calculate-button" onclick="calculate()">
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
